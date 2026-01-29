@@ -10,6 +10,25 @@ h1{
     color:rgb(255, 255, 255);
     margin:0;
 }
+h2{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size:48px;
+    line-height: 60px;
+    color:rgb(0, 0, 0);
+    margin:0; 
+}
+h5{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-size:24px;
+    text-align: center ;
+    color:rgb(0, 0, 0);
+    margin:0px; 
+    padding:0px
+}
 
 .nav-bar {
     width: 1360px;
@@ -169,3 +188,62 @@ h1{
     line-height: 24px;
     color:white;
 }
+
+.card-section{
+    padding-top:70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:0px;
+    gap:16px;
+}
+.cards{
+    width:1360px;
+    margin:40px 0px 0px 0px;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.card{
+    height:200px;
+    width:33.33%;
+    padding:50px 30px;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap:16px;
+    border-radius: 8px;
+    box-shadow: #d1d1d1 0px 4px 16px 0px; 
+}
+.card-image{
+    width:64px;
+    height:64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#F95555;
+    border-radius: 1000px;
+}
+.card-section p {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color:#627382;
+    padding: 0px;
+    margin:0px;
+}
+
