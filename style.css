@@ -278,7 +278,7 @@ h5{
 .light-section-text{
     width: 50%;
 }
-.light-section-text p {
+.light-section-text .para {
     width:530px;
     font-family: "Inter", sans-serif;
     font-size: 16px;
@@ -305,6 +305,13 @@ h5{
 .circle{
     width:20px;
     height:20px;
+}
+.green-text2{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 10px;
+    color:#469165;
 }
 
 .last-section-wrap{
